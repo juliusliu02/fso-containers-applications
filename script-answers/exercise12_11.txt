@@ -1,0 +1,26 @@
+Script started on Tue Nov 26 15:22:01 2024
+[1m[7m%[27m[1m[0m                                                                                ]7;file://The-MacBook-Pro.local/Users/julius/Documents/Code/Playground/fso-containers-applications/todo-app/todo-backend[0m[27m[24m[Jjulius@The-MacBook-Pro todo-backend % [K[?2004hdocker exec -it todo-backend-redis-1 bash[?2004l
+[?2004hroot@5240cfdb8500:/data# redis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS **[0;90;49m pattern[0m[23C[0K127.0.0.1:6379> KEYS **[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *c*[0;90;49m pattern[0m[23C[0K127.0.0.1:6379> KEYS *co*[0;90;49m pattern[0m[24C[0K127.0.0.1:6379> KEYS *cou*[0;90;49m pattern[0m[25C[0K127.0.0.1:6379> KEYS *coun*[0;90;49m pattern[0m[26C[0K127.0.0.1:6379> KEYS *count*[0;90;49m pattern[0m[27C[0K127.0.0.1:6379> KEYS *count*[0;90;49m pattern[0m[28C[0K127.0.0.1:6379> KEYS *count*[28C
+1) "count"
+127.0.0.1:6379> [0K127.0.0.1:6379> g[17C[0K127.0.0.1:6379> ge[18C[0K127.0.0.1:6379> get[19C[0K127.0.0.1:6379> get [0;90;49mkey[0m[20C[0K127.0.0.1:6379> get c[0;90;49m key[0m[21C[0K127.0.0.1:6379> get co[0;90;49m key[0m[22C[0K127.0.0.1:6379> get cou[0;90;49m key[0m[23C[0K127.0.0.1:6379> get coun[0;90;49m key[0m[24C[0K127.0.0.1:6379> get count[0;90;49m key[0m[25C[0K127.0.0.1:6379> get count[25C
+"2"
+127.0.0.1:6379> [0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> set[19C[0K127.0.0.1:6379> set [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT uni[0m[20C[0K127.0.0.1:6379> set c[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT u[0m[21C[0K127.0.0.1:6379> set co[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT [0m[22C[0K127.0.0.1:6379> set cou[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m[23C[0K127.0.0.1:6379> set coun[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXA[0m[24C[0K127.0.0.1:6379> set count[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EX[0m[25C[0K127.0.0.1:6379> set count [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT u[0m[26C[0K127.0.0.1:6379> set count 9[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m[27C[0K127.0.0.1:6379> set count 90[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXA[0m[28C[0K127.0.0.1:6379> set count 900[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EX[0m[29C[0K127.0.0.1:6379> set count 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|E[0m[30C[0K127.0.0.1:6379> set count 9001[30C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> set count 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|E[0m[30C[0K127.0.0.1:6379> get count[0;90;49m key[0m[25C[0K127.0.0.1:6379> get count[25C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> d[17C[0K127.0.0.1:6379> de[18C[0K127.0.0.1:6379> del[19C[0K127.0.0.1:6379> del [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> del c[0;90;49m key [key ...][0m[21C[0K127.0.0.1:6379> del co[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6379> del cou[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6379> del coun[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6379> del count[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> del count[25C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> del count[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> get count[0;90;49m key[0m[25C[0K127.0.0.1:6379> get count[25C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[?2004hroot@5240cfdb8500:/data# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://The-MacBook-Pro.local/Users/julius/Documents/Code/Playground/fso-containers-applications/todo-app/todo-backend[0m[27m[24m[Jjulius@The-MacBook-Pro todo-backend % [K[?2004hee[90mxit[39me[39mx[39mi[39mt[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue Nov 26 15:26:40 2024

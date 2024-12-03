@@ -1,0 +1,14 @@
+Script started on Mon Nov 25 10:56:02 2024
+Restored session: Mon 25 Nov 2024 10:54:37 EST
+[1m[7m%[27m[1m[0m                                                                                ]7;file://The-MacBook-Pro.local/Users/julius/Documents/Code/Playground/fso-containers-applications[0m[27m[24m[Jjulius@The-MacBook-Pro fso-containers-applications % [K[?2004hdocker run -it ubuntu bash[?2004l
+[?2004h]0;root@234a7ea46db6: /root@234a7ea46db6:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@234a7ea46db6: /root@234a7ea46db6:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@234a7ea46db6: /root@234a7ea46db6:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://The-MacBook-Pro.local/Users/julius/Documents/Code/Playground/fso-containers-applications[0m[27m[24m[Jjulius@The-MacBook-Pro fso-containers-applications % [K[?2004hee[90mxit[39me[39mx[39mi[39mt[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Mon Nov 25 10:56:56 2024

@@ -1,0 +1,17 @@
+db.todos.insertOne({text: "Test 2", done: false})
+db.todos.insertOne({text: "Test", done: false})
+db.todos.deleteMany({})
+db.todos.find({})
+collection.todos.find({})
+collections.todos.find({})
+todos.find({})
+show collections
+use the_database
+show dbs
+db.todos.find({})
+db.todos.insertOne({text: "Test", done: false})
+db.todos.add({text: "Test", done: false})
+db.todos.find({})
+show collections
+use the_database
+show dbs
